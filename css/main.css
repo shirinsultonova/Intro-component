@@ -5,6 +5,20 @@
 * Browsers: last 4 version
 */
 
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 
 /* poppins-regular - latin */
 @font-face {
@@ -139,8 +153,57 @@ input {
     padding: 15px;
     padding-left: 25px;
     font-weight: 600;
-    border: 1px solid #00000063;
+    border: 1px solid #DEDEDE;
     border-radius: 5px;
+    outline: none;
+}
+input:focus{
+border: 1px solid #5E54A4;
+}
+input::-webkit-input-placeholder{
+    font-weight: 600;
+font-size: 14px;
+line-height: 26px;
+letter-spacing: 0.25px;
+color: #3D3B48;
+mix-blend-mode: normal;
+opacity: 0.75;
+}
+input::-moz-placeholder{
+    font-weight: 600;
+font-size: 14px;
+line-height: 26px;
+letter-spacing: 0.25px;
+color: #3D3B48;
+mix-blend-mode: normal;
+opacity: 0.75;
+}
+input:-ms-input-placeholder{
+    font-weight: 600;
+font-size: 14px;
+line-height: 26px;
+letter-spacing: 0.25px;
+color: #3D3B48;
+mix-blend-mode: normal;
+opacity: 0.75;
+}
+input::-ms-input-placeholder{
+    font-weight: 600;
+font-size: 14px;
+line-height: 26px;
+letter-spacing: 0.25px;
+color: #3D3B48;
+mix-blend-mode: normal;
+opacity: 0.75;
+}
+input::placeholder{
+    font-weight: 600;
+font-size: 14px;
+line-height: 26px;
+letter-spacing: 0.25px;
+color: #3D3B48;
+mix-blend-mode: normal;
+opacity: 0.75;
 }
 
 input:active {
@@ -186,15 +249,17 @@ input::placeholder {
 }
 
 .register-form-end {
-    font-size: 10px;
-    text-align: center;
-    color: #0000004b;
-    font-weight: 600;
+    color: #BAB7D4;
+    font-weight: 500;
+    font-size: 11px;
+line-height: 26px;
+text-align: center;
+
 }
 
 .register-form-end>a {
     text-decoration: none;
-    color: #f00;
+    color: #FF7979;
 }
 
 span {
